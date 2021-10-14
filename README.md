@@ -4,17 +4,12 @@
 
 [comment]: # (auto_cargo_toml_to_md start)
 
-**Write cargo-crev reviews in GUI with a cross-platform app written in full-stack rust**  
+**Templating library for html in fullstack Rust, server-side or client-side in wasm**  
 ***[repository](https://github.com/lucianobestia/dev_bestia_html_templating_workspace); version: 2021.925.1120  date: 2021-09-25 authors: Luciano Bestia***  
 
 [comment]: # (auto_cargo_toml_to_md end)
 
 [comment]: # (auto_lines_of_code start)
-[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-17784-green.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating_workspace/)
-[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-266-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating_workspace/)
-[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-137-purple.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating_workspace/)
-[![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating_workspace/)
-[![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating_workspace/)
 
 [comment]: # (auto_lines_of_code end)
 
