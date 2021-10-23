@@ -5,16 +5,16 @@
 [comment]: # (auto_cargo_toml_to_md start)
 
 **Templating library for html in fullstack Rust, server-side or client-side in wasm**  
-***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.3  date: 2021-10-14 authors: Luciano Bestia***  
+***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.33  date: 2021-10-23 authors: Luciano Bestia***  
 
 [comment]: # (auto_cargo_toml_to_md end)
 
 [comment]: # (auto_lines_of_code start)
-[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-947-green.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
-[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-143-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
-[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-160-purple.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-730-green.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-116-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-131-purple.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
 [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
-[![Lines in tests](https://img.shields.io/badge/Lines_in_tests-47-orange.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+[![Lines in tests](https://img.shields.io/badge/Lines_in_tests-95-orange.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
 
 [comment]: # (auto_lines_of_code end)
 

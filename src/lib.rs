@@ -4,13 +4,15 @@
 //! # dev_bestia_html_templating
 //!
 //! **Templating library for html in fullstack Rust, server-side or client-side in wasm**  
-//! ***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.3  date: 2021-10-14 authors: Luciano Bestia***  
+//! ***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.33  date: 2021-10-23 authors: Luciano Bestia***  
 //!
-//! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-947-green.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
-//! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-143-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
-//! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-160-purple.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+//! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-730-green.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+//! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-116-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+//! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-131-purple.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
 //! [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
-//! [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-47-orange.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+//! [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-95-orange.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
+//!
+//! [![crates.io](https://img.shields.io/crates/v/dev_bestia_html_templating.svg)](https://crates.io/crates/dev_bestia_html_templating) [![Documentation](https://docs.rs/dev_bestia_html_templating/badge.svg)](https://docs.rs/dev_bestia_html_templating/) [![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/dev_bestia_html_templating.svg)](https://web.crev.dev/rust-reviews/crate/dev_bestia_html_templating/) [![Lib.rs](https://img.shields.io/badge/Lib.rs-rust-orange.svg)](https://lib.rs/crates/dev_bestia_html_templating/) [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/blob/master/LICENSE) [![Rust](https://github.com/LucianoBestia/dev_bestia_html_templating/workflows/RustAction/badge.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/actions)  
 //!
 //! ## Try it
 //!

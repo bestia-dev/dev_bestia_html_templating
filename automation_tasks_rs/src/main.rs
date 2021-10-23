@@ -28,10 +28,12 @@ fn match_arguments_and_call_tasks(mut args: std::env::Args) {
                 println!("Running automation task: {}", &task);
                 if &task == "build" || &task == "b" {
                     task_build();
-                } else if &task == "release" || &task == "r" {
+                } else if &task == "release" {
                     task_release();
-                } else if &task == "docs" || &task == "doc" || &task == "d" {
-                    task_docs();
+                } else if &task == "test" {
+                    task_test();
+                } else if &task == "doc" {
+                    task_doc();
                 } else if &task == "commit_and_push" {
                     let arg_2 = args.next();
                     task_commit_and_push(arg_2);
@@ -53,9 +55,10 @@ fn print_help() {
 User defined tasks in automation_tasks_rs:
 cargo auto build - builds the crate in debug mode, fmt
 cargo auto release - builds the crate in release mode, version from date, fmt, strip
+cargo auto test - runs all the tests
 cargo auto doc - builds the docs, copy to docs directory
-cargo auto commit_and_push - commits with message and push with mandatory message
-    if you use SSH, it is easy to start the ssh-agent in the background and ssh-add your credentials for git
+cargo auto commit_and_push "message" - commits with message and push with mandatory message
+      (If you use SSH, it is easy to start the ssh-agent in the background and ssh-add your credentials for git.)
 cargo auto publish_to_crates_io - publish to crates.io, git tag
 "#,
     );
@@ -68,7 +71,7 @@ fn completion() {
     let last_word = args[3].as_str();
 
     if last_word == "cargo-auto" || last_word == "auto" {
-        let sub_commands = vec!["build", "release", "doc","commit_and_push","publish_to_crates_io",];
+        let sub_commands = vec!["build", "release", "test", "doc","commit_and_push","publish_to_crates_io",];
         completion_return_one_or_more_sub_commands(sub_commands, word_being_completed);
     }
     /*
@@ -112,13 +115,27 @@ fn task_release() {
    
     println!(
         r#"
-After `cargo auto release`, run the tests and the code. If ok, then 
+After `cargo auto release`, 
+run the `cargo auto test`. If ok, then 
 run `cargo auto doc`
 "#
     );
 }
 
-fn task_docs() {
+fn task_test() {
+    
+    run_shell_command("cargo test");
+   
+    println!(
+        r#"
+After `cargo auto test`, if ok, then 
+run `cargo auto doc`
+"#
+    );
+}
+
+/// cargo doc, then copies to /docs/ folder, because this is a github standard folder
+fn task_doc() {
     auto_cargo_toml_to_md();
     auto_lines_of_code("");
     auto_md_to_doc_comments();
@@ -135,7 +152,7 @@ fn task_docs() {
     println!(
         r#"
 After `cargo auto doc`, check `docs/index.html`. If ok, then 
-run `cargo auto commit_and_push` with mandatory commit message
+run `cargo auto commit_and_push "message"` with mandatory commit message
 "#
     );
 }
@@ -157,7 +174,7 @@ run `cargo auto publish_to_crates_io`
     }
 }
 
-/// example hot to publish to crates.io and git tag
+/// publish to crates.io and git tag
 fn task_publish_to_crates_io() {
     // git tag
     let shell_command = format!(

@@ -119,9 +119,9 @@ fn root_element_node_to_html_string(element_node: &ElementNode) -> Result<String
                 }
             }
             // end tag
-            if ["head", "div","body","html"].contains(&element_node.tag_name.as_str()){
-                html.push_str("\n");    
-                html.push_str("    ".repeat(dom_path.len()-1).as_str());
+            if ["head", "div", "body", "html"].contains(&element_node.tag_name.as_str()) {
+                html.push_str("\n");
+                html.push_str("    ".repeat(dom_path.len() - 1).as_str());
             }
             html.push_str("</");
             html.push_str(&element_node.tag_name);

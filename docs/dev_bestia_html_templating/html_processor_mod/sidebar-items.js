@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["process_html","process root template (not subtemplates) from string"],["root_element_node_to_html_string","converts element node to string the attribute values and Text nodes and Comments are xml encoded"]],"struct":[["PREFIX",""]]});

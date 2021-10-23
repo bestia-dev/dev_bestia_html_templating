@@ -28,8 +28,8 @@ impl tmplt::HtmlTemplatingDataTrait for DataItem01 {
     ) -> String {
         // dbg!(&placeholder);
         match placeholder {
-            "wt_data_string" => s!(self.data_string),
-            "wt_data_integer" => s!(self.data_integer),
+            "st_data_string" => s!(self.data_string),
+            "st_data_integer" => s!(self.data_integer),
             _ => tmplt::utils::match_else_for_replace_with_string(
                 &self.data_model_name(),
                 placeholder,
@@ -56,8 +56,8 @@ fn integration_test_01() {
     <body>
         <div class="container_0">
             <h2>test_01</h2>
-            <p><!--wt_data_string-->sample_1</p>
-            <p><!--wt_data_integer-->00</p>
+            <p><!--st_data_string-->sample_1</p>
+            <p><!--st_data_integer-->00</p>
         </div>
         <div class="container_0">
             <p>Fixed text node.</p>
@@ -66,9 +66,9 @@ fn integration_test_01() {
 </html>
     "#;
 
-    let new_html = tmplt::process_html(&data_item_01, &html_template);
+    let new_html = tmplt::process_html(&data_item_01, html_template);
 
-    // println!("{}", new_html);
+    println!("{}", new_html);
 
     assert_eq!(
         new_html,
