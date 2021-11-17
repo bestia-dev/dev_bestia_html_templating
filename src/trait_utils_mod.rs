@@ -515,8 +515,7 @@ fn fill_element_node<T: HtmlTemplatingDataTrait>(
                                 let template_name = txt.trim_end_matches(" start");
                                 let repl_vec_nodes =
                                     self_0.process_sub_template(template_name, sub_templates);
-                                // TODO: what is happening here?
-                                element.children.extend_from_slice(&repl_vec_nodes);
+                                element.children.extend_from_slice(&repl_vec_nodes[..]);
                             } else if txt.starts_with(&PREFIX.node) {
                                 // nodes  (in a vector)
                                 let repl_vec_nodes = self_0.replace_with_nodes(txt);

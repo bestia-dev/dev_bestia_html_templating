@@ -46,6 +46,9 @@ pub fn process_html<T: HtmlTemplatingDataTrait>(self_0: &T, html_template_raw: &
         .trim()
         .trim_start_matches("<!DOCTYPE html>");
 
+    // add a temporary root unique element. It will be discarded later.
+    let html_template_raw = format!("<temporary_root>{}</temporary_root>", html_template_raw);
+
     let nodes = unwrap!(trait_utils_mod::process_template_raw_to_nodes(
         self_0,
         &html_template_raw,
@@ -132,7 +135,27 @@ fn root_element_node_to_html_string(element_node: &ElementNode) -> Result<String
 
     let mut html = String::with_capacity(5000);
     html.push_str("<!DOCTYPE html>");
-    sub_element_node_mut_html(&mut html, element_node, &mut dom_path);
+    // first node is <temporary_root>. Jump over it directly to the children.
+    for sub_elem in element_node.children.iter() {
+        match &sub_elem {
+            trait_utils_mod::Node::Element(sub_element) => {
+                // recursion
+                sub_element_node_mut_html(&mut html, sub_element, &mut dom_path);
+            }
+            trait_utils_mod::Node::Text(text) => {
+                if unwrap!(dom_path.last()) == "script" {
+                    // in html script elements are encoded differently
+                    html.push_str(&encode_html_script_node(&text));
+                } else {
+                    html.push_str(&encode_5_xml_control_characters(&text));
+                }
+            }
+            trait_utils_mod::Node::Comment(text) => html.push_str(&format!(
+                "<!--{}-->",
+                encode_5_xml_control_characters(&text)
+            )),
+        }
+    }
     // return
     Ok(html)
 }
