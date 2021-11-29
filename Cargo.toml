@@ -1,6 +1,6 @@
 [package]
 name = "dev_bestia_html_templating"
-version = "0.1.38"
+version = "0.1.41"
 description = "Templating library for html in fullstack Rust, server-side or client-side in wasm"
 authors = ["Luciano Bestia"]
 edition = "2018"

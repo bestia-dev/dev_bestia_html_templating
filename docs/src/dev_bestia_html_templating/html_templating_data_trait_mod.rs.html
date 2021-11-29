@@ -348,11 +348,11 @@
 }
 
 <span class="doccomment">/// private fn - decode 5 xml control characters : &quot; &#39; &amp; &lt; &gt;</span>
-<span class="doccomment">/// https://www.liquid-technologies.com/XML/EscapingData.aspx</span>
+<span class="doccomment">/// &lt;https://www.liquid-technologies.com/XML/EscapingData.aspx&gt;</span>
 <span class="doccomment">/// I will ignore all html entities, to keep things simple,</span>
 <span class="doccomment">/// because all others characters can be written as utf-8 characters.</span>
 <span class="doccomment">/// it is mandatory that text is valid utf-8.</span>
-<span class="doccomment">/// https://www.tutorialspoint.com/html5/html5_entities.htm</span>
+<span class="doccomment">/// &lt;https://www.tutorialspoint.com/html5/html5_entities.htm&gt;</span>
 <span class="doccomment">/// TODO: find a faster method // The standard library replace() function makes allocation,</span>
 <span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">decode_5_xml_control_characters</span>(<span class="ident">input</span>: <span class="kw-2">&amp;</span><span class="ident">str</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">String</span> {
     <span class="ident">input</span>

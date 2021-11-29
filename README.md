@@ -5,7 +5,7 @@
 [comment]: # (auto_cargo_toml_to_md start)
 
 **Templating library for html in fullstack Rust, server-side or client-side in wasm**  
-***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.38  date: 2021-11-17 authors: Luciano Bestia***  
+***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.41  date: 2021-11-29 authors: Luciano Bestia***  
 
 [comment]: # (auto_cargo_toml_to_md end)
 

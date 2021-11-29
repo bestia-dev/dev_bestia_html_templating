@@ -4,7 +4,7 @@
 //! # dev_bestia_html_templating
 //!
 //! **Templating library for html in fullstack Rust, server-side or client-side in wasm**  
-//! ***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.38  date: 2021-11-17 authors: Luciano Bestia***  
+//! ***[repository](https://github.com/lucianobestia/dev_bestia_html_templating); version: 0.1.41  date: 2021-11-29 authors: Luciano Bestia***  
 //!
 //! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-749-green.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)
 //! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-118-blue.svg)](https://github.com/LucianoBestia/dev_bestia_html_templating/)

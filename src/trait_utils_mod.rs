@@ -362,7 +362,7 @@ fn fill_element_node<T: HtmlTemplatingDataTrait>(
                             } else if name.starts_with(&PREFIX.attr_exist) {
                                 // the next attribute existence
                                 // if false it will not exist
-                                let placeholder = &value;
+                                let placeholder = name.trim_start_matches("data-");
                                 let repl_bool = self_0.exists_next_node_or_attribute(placeholder);
                                 exists_next_node_or_attribute = repl_bool;
                             } else if exists_next_node_or_attribute == false {
