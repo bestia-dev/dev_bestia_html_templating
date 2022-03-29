@@ -2,11 +2,11 @@
 name = "dev_bestia_html_templating"
 version = "0.1.41"
 description = "Templating library for html in fullstack Rust, server-side or client-side in wasm"
-authors = ["Luciano Bestia"]
+authors = ["bestia.dev"]
 edition = "2018"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/lucianobestia/dev_bestia_html_templating"
+repository = "https://github.com/bestia-dev/dev_bestia_html_templating"
 categories = ["web-programming::http-server"]
 keywords = ["server", "http"]
 publish = true
