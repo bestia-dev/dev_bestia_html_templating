@@ -30,6 +30,8 @@
 
 [comment]: # (auto_badges end)
 
+Hashtags: #rustlang #html #template
+
 ## Try it
 
 ## Motivation
