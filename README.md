@@ -18,6 +18,8 @@
 
 [comment]: # (auto_lines_of_code end)
 
+![status](https://img.shields.io/badge/work_in_progress-yellow) 
+
 [comment]: # (auto_badges start)
 
 [![crates.io](https://img.shields.io/crates/v/dev_bestia_html_templating.svg)](https://crates.io/crates/dev_bestia_html_templating)
