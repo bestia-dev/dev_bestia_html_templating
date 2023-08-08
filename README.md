@@ -9,6 +9,8 @@
 
 [comment]: # (auto_cargo_toml_to_md end)
 
+![status](https://img.shields.io/badge/work_in_progress-yellow) 
+
 [comment]: # (auto_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-749-green.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-118-blue.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
@@ -17,8 +19,6 @@
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-95-orange.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 
 [comment]: # (auto_lines_of_code end)
-
-![status](https://img.shields.io/badge/work_in_progress-yellow) 
 
 [comment]: # (auto_badges start)
 
