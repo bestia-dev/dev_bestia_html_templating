@@ -50,15 +50,6 @@ The html page has to be MicroXml compatible, basically XHtml.  Copy for example 
 Inside the html you want to replace the sample texts with the data from the server. Before the text add the (invisible) marker for example `<!--wt_crate_name-->`. You can replace also an attribute if you insert an attribute before it like this `data-wt_variable_name="next_attribute_name"`.  
 Now run the automation task `cargo auto build` that will copy/embed this file into `files_mod.rs`.  
 
-## cargo crev reviews and advisory
-
-We live in times of danger with [supply chain attacks](https://en.wikipedia.org/wiki/Supply_chain_attack).  
-It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
-to verify the trustworthiness of each of your dependencies.  
-Please, spread this info.  
-You can also read reviews quickly on the web:  
-<https://web.crev.dev/rust-reviews/crates/>  
-
 ## Open-source and free as a beer
 
 My open-source projects are free as a beer (MIT license).  
