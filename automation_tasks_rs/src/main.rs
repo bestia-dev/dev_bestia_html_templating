@@ -98,7 +98,7 @@ fn task_build() {
     run_shell_commands(shell_commands.to_vec());
     println!(
         r#"
-After `cargo auto build`, run the tests and the code. If ok, then 
+After `cargo auto build`, run the tests and the code. If ok then 
 run`cargo auto release`
 "#
     );
@@ -116,7 +116,7 @@ fn task_release() {
     println!(
         r#"
 After `cargo auto release`, 
-run the `cargo auto test`. If ok, then 
+run the `cargo auto test`. If ok then 
 run `cargo auto doc`
 "#
     );
@@ -128,7 +128,7 @@ fn task_test() {
    
     println!(
         r#"
-After `cargo auto test`, if ok, then 
+After `cargo auto test`, If ok then 
 run `cargo auto doc`
 "#
     );
@@ -151,7 +151,7 @@ fn task_doc() {
     // message to help user with next move
     println!(
         r#"
-After `cargo auto doc`, check `docs/index.html`. If ok, then 
+After `cargo auto doc`, check `docs/index.html`. If ok then 
 run `cargo auto commit_and_push "message"` with mandatory commit message
 "#
     );
