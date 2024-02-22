@@ -1,26 +1,24 @@
-[comment]: # (auto_md_to_doc_comments segment start A)
-
 # dev_bestia_html_templating
 
-[comment]: # (auto_cargo_toml_to_md start)
+[//]: # (auto_cargo_toml_to_md start)
 
 **Templating library for html in fullstack Rust, server-side or client-side in wasm**  
 ***version: 0.1.41  date: 2021-11-29 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/dev_bestia_html_templating)***  
 
-[comment]: # (auto_cargo_toml_to_md end)
+[//]: # (auto_cargo_toml_to_md end)
 
  ![work_in_progress](https://img.shields.io/badge/work_in_progress-yellow)
 
-[comment]: # (auto_lines_of_code start)
+[//]: # (auto_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-749-green.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-118-blue.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-134-purple.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-95-orange.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/)
 
-[comment]: # (auto_lines_of_code end)
+[//]: # (auto_lines_of_code end)
 
-[comment]: # (auto_badges start)
+[//]: # (auto_badges start)
 
  [![crates.io](https://img.shields.io/crates/v/dev_bestia_html_templating.svg)](https://crates.io/crates/dev_bestia_html_templating)
  [![Documentation](https://docs.rs/dev_bestia_html_templating/badge.svg)](https://docs.rs/dev_bestia_html_templating/)
@@ -30,7 +28,7 @@
  [![Rust](https://github.com/bestia-dev/dev_bestia_html_templating/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/actions)
  ![dev_bestia_html_templating](https://bestia.dev/webpage_hit_counter/get_svg_image/196699503.svg)
 
-[comment]: # (auto_badges end)
+[//]: # (auto_badges end)
 
 Hashtags: #rustlang #html #template  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
@@ -74,5 +72,3 @@ So I can drink a free beer for your health :-)
 [//github.com/bestia-dev](https://github.com/bestia-dev)  
 [//bestiadev.substack.com](https://bestiadev.substack.com)  
 [//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
-
-[comment]: # (auto_md_to_doc_comments segment end A)
