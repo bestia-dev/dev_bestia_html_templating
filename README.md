@@ -27,7 +27,7 @@
  [![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/dev_bestia_html_templating.svg)](https://web.crev.dev/rust-reviews/crate/dev_bestia_html_templating/)
  [![Lib.rs](https://img.shields.io/badge/Lib.rs-rust-orange.svg)](https://lib.rs/crates/dev_bestia_html_templating/)
  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/blob/master/LICENSE)
- [![Rust](https://github.com/bestia-dev/dev_bestia_html_templating/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/actions)
+ [![Rust](https://github.com/bestia-dev/dev_bestia_html_templating/workflows/rust_fmt_auto_build_test/badge.svg)](https://github.com/bestia-dev/dev_bestia_html_templating/actions)
  ![dev_bestia_html_templating](https://bestia.dev/webpage_hit_counter/get_svg_image/196699503.svg)
 
 [//]: # (auto_badges end)
